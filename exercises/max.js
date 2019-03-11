@@ -10,6 +10,17 @@
  */
 
 // Your code :
+function max (value1 , value2) {
+    if (value1 > value2) {
+        return value1 ;
+    }
+    else if (value2 > value1) {
+        return value2 ;
+    }
+    else {
+        return value1;
+    }
+}
 
 //* Begin of tests
 const assert = require('assert')

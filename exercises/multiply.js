@@ -9,6 +9,36 @@
  */
 
 // Your code :
+function multiply (value1 , value2){
+    let somme= 0;
+    if ( value2 > 0 && value1 > 0) {
+    for (let i = 0 ; i < value2 ; i++) {
+    somme = somme + value1;
+}
+return somme;
+    }
+    else if ( value1 > 0 && value2 < 0) {
+    for (let i = 0 ; i > value2 ; i--){
+    somme = somme + value1
+    }
+return -somme;
+    }
+    else if ( value1 < 0 && value2 < 0) {
+    for (let i = 0 ; i > value2 ; i--) {
+    somme = somme + value1
+    }
+return -somme;
+    }
+    else if ( value1 < 0 && value2 > 0) {
+    for (let i = 0 ; i < value2 ; i++) {
+    somme = somme + value1
+    }
+return somme;
+    }
+    else if (value1===0 || value2===0) {
+        return 0;
+    }
+}
 
 //* Begin of tests
 const assert = require('assert')

@@ -7,6 +7,9 @@
  */
 
 // Your code :
+function sub (value1 , value2) {
+    return value1-value2;
+}
 
 //* Begin of tests
 const assert = require('assert')

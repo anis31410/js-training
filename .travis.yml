@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 script: ./tester basics get math
+=======
+script: ./tester basics math
+>>>>>>> d16588c8cf73c9ae32b0613fd95cab28d8133094
 language: node_js
 node_js:
   - "node"
